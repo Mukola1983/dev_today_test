@@ -51,9 +51,11 @@
    * Security - certifications, access control, encryption.
 
 ## Key decisions
+   * React and Node js for a quick start and the ability to easily maintain and expand the system
+   * PostgreSQL for reliability and the ability to store quick access and archive data
    * WebSocket for push notification or email alerts
-   * Rate Limiting for security and prevent DdoS attacks
-   * Authentication by API tokens / JWT
+   * Rate Limiting for security and prevent DDoS attacks
+   * JWT for Authentication by API tokens 
    
 ## Questions for the client
    * Types of errors that will be processed
